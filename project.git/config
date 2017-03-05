@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@172.21.0.63:bar2/project.git
+	fetch = +refs/*:refs/*
+	mirror = true
